@@ -1,7 +1,3 @@
-# Data Preprocessing
-
-This repository contains my hands-on practice notebooks covering essential **Data Preprocessing** techniques used in Machine Learning. These notebooks demonstrate how to prepare raw data before training ML models using **Pandas** and **Scikit-learn**.
-
 ## 📂 Contents
 
 - **columnTransform.ipynb**
@@ -29,34 +25,25 @@ This repository contains my hands-on practice notebooks covering essential **Dat
   - Feature Scaling
   - Mean = 0 and Standard Deviation = 1
 
----
+- **powerTransformer.ipynb**
+  - Box-Cox Transformation
+  - Yeo-Johnson Transformation
+  - Making data more Gaussian
+  - Reducing skewness
 
-## 🛠️ Technologies Used
+- **fxnTransformer.ipynb**
+  - FunctionTransformer
+  - Applying custom transformations
+  - Log, Square Root and Reciprocal transformations
 
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Scikit-learn
-
----
-
-## 📚 Topics Covered
+  ## 📚 Topics Covered
 
 - Feature Scaling
 - Standardization
 - Normalization
 - One-Hot Encoding
 - Ordinal Encoding
+- Power Transformation
+- Function Transformation
 - ColumnTransformer
 - Data Preparation for Machine Learning
-
----
-
-## 🎯 Objective
-
-The goal of this repository is to strengthen my understanding of preprocessing techniques that improve model performance and prepare datasets for Machine Learning workflows.
-
----
-
-⭐ If you find this repository helpful, feel free to star it.
