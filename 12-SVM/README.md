@@ -1,32 +1,38 @@
-Support Vector Machine (SVM)
+# Support Vector Machine (SVM)
 
-This section covers Support Vector Machine (SVM), a supervised machine learning algorithm mainly used for classification. SVM finds the optimal decision boundary that separates different classes while maximizing the margin between them.
+This folder covers the fundamentals and implementation of **Support Vector Machine (SVM)**, a supervised machine learning algorithm used primarily for classification.
 
-Topics Covered
-Support Vector Machine fundamentals
-Hyperplane and decision boundary
-Margin and support vectors
-Hard margin vs. soft margin
-C parameter
-Kernel functions
-Kernel Trick
-Linear Kernel
-Polynomial Kernel
-RBF (Radial Basis Function) Kernel
-SVM classification using Scikit-learn
-Practical Implementation
+## Topics Covered
 
-Implemented SVM using Scikit-learn and experimented with different kernels to understand how SVM handles both linearly and non-linearly separable data.
+* Support Vector Machine (SVM)
+* Hyperplane and Decision Boundary
+* Support Vectors
+* Margin
+* Hard Margin and Soft Margin
+* `C` Parameter
+* Kernel Functions
+* Kernel Trick
+* Linear Kernel
+* Polynomial Kernel
+* RBF Kernel
+* SVM Classification
 
-Dataset
+## Implementation
 
-Used synthetic datasets such as make_circles() to visualize how different SVM kernels create decision boundaries for non-linear classification problems.
+The concepts are implemented using **Python** and **Scikit-learn**. Synthetic datasets such as `make_circles()` are used to visualize decision boundaries and understand how different kernels handle non-linear data.
 
-Libraries Used
-Python
-NumPy
-Matplotlib
-Scikit-learn
-Key Takeaway
+## Libraries
 
-SVM aims to find a decision boundary with the maximum possible margin between classes. The Kernel Trick allows SVM to handle complex, non-linear classification problems by transforming the data into a higher-dimensional space.
+* NumPy
+* Matplotlib
+* Scikit-learn
+
+## Files
+
+| File                   | Description                                       |
+| ---------------------- | ------------------------------------------------- |
+| `SVMkernelTrick.ipynb` | SVM implementation and Kernel Trick visualization |
+
+## Key Takeaway
+
+SVM finds an optimal decision boundary by maximizing the margin between classes. The **Kernel Trick** enables SVM to solve non-linear classification problems by mapping data into a higher-dimensional feature space.
